@@ -6,4 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
+    <ImageView
+        android:id="@+id/iv_secondGround"
+        android:layout_width="551dp"
+        android:layout_height="847dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/second_background" />
+
+    <TextView
+        android:id="@+id/tv_whatsLearn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/neler_ogrendik"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbx_basicKotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kotlin Temelleri"
+        android:minWidth="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_whatsLearn" />
+
+    <CheckBox
+        android:id="@+id/cbx_layout"
+        android:layout_width="wrap_content"
+        android:minWidth="120dp"
+        android:layout_height="wrap_content"
+        android:text="Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbx_basicKotlin"/>
+
+    <CheckBox
+        android:id="@+id/cbx_collections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="120dp"
+        android:text="CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cbx_layout"/>
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="185dp"
+        android:layout_height="48dp"
+        android:background="@drawable/asymmetric_button"
+        android:text="Next"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@color/yellowish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbx_collections" />
 </androidx.constraintlayout.widget.ConstraintLayout>

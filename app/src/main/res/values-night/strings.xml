@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="merhabalar">Merhabalar,</string>
+    <string name="neler_ogrendik">Neler Öğrendik?</string>
 </resources>

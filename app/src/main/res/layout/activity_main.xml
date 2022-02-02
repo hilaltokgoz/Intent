@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/iv_firstGround"
         android:layout_width="446dp"
         android:layout_height="803dp"
         android:backgroundTint="@color/light_blue"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/login_background" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_hello"
         android:layout_width="391dp"
         android:layout_height="94dp"
         android:layout_marginTop="100dp"
@@ -35,10 +35,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_personName"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawableStart="@drawable/ic_baseline_person"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
@@ -49,10 +49,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_hello" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/et_password"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:drawableStart="@drawable/ic_baseline_lock"
@@ -64,19 +64,19 @@
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/et_personName" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="187dp"
+        android:layout_width="185dp"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/asymmetric_button"
         app:backgroundTint="@color/light_blue"
-        android:text="Button"
+        android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Navigation</string>
     <string name="merhabalar">Merhabalar,</string>
+    <string name="neler_ogrendik">Neler Öğrendik?</string>
 </resources>
